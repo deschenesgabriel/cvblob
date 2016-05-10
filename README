@@ -41,6 +41,7 @@ In Linux, if you have unpacked the source in $CVBLOB, enter in a console:
 	cmake .
 	make
 	sudo make install
+	sudo ldconfig
 
 In Windows it must be as easy as in Linux (changing "make" for the equivalent in your compiler).
 If problems, please read:
